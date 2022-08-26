@@ -14,5 +14,5 @@ public class Category
     public string Description { get; set; }
 
     //all task associated with the category
-    public virtual ICollection<Task> Tasks { get; set; }
+    public virtual ICollection<Taskk> Tasks { get; set; }
 }

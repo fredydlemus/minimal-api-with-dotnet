@@ -6,7 +6,7 @@ namespace minimalapientityFramework.Models;
 public class Taskk
 {
     [Key]
-    public Guid TaskId { get; set; }
+    public Guid TaskkId { get; set; }
 
     [ForeignKey("CategoryId")]
     public Guid CategoryId { get; set; }
