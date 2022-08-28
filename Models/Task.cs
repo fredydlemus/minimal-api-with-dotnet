@@ -5,14 +5,14 @@ namespace minimalapientityFramework.Models;
 
 public class Taskk
 {
-    [Key]
+    //[Key]
     public Guid TaskkId { get; set; }
 
-    [ForeignKey("CategoryId")]
+    //[ForeignKey("CategoryId")]
     public Guid CategoryId { get; set; }
 
-    [Required]
-    [MaxLength(200)]
+    //[Required]
+    //[MaxLength(200)]
     public string Title { get; set; }
 
     public string Description { get; set; }
@@ -25,7 +25,7 @@ public class Taskk
     public virtual Category Category { get; set; }
 
     //NotMapped if for not to show in the database
-    [NotMapped]
+   // [NotMapped]
     public string Resume { get; set; }
 
 }
